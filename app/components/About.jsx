@@ -15,14 +15,14 @@ const About = () => {
   };
 
   return (
-    <>
+    <motion.div ref={ref}>
       <motion.div
         variants={mvariants}
         initial="initial"
         animate={isInView ? "animate" : "initial"}
-        ref={ref}
+        
         id="about"
-        className="sm:flex gap-20 mt-28 sm:mt-0 bg-gray-950/20  p-5 min-h-[500px] rounded-md"
+        className="sm:flex gap-20 mt-20 sm:mt-0 bg-gray-950/20  p-5 min-h-[500px] rounded-md"
       >
         <div className="flex-1 justify-center items-center flex">
           <Image
@@ -115,12 +115,12 @@ const About = () => {
         initial="initial"
         animate={isInView ? "animate" : "initial"}
         ref={ref}
-        className="md:flex w-full h-[50px] justify-center my-10 mb-40 md:mb-0"
+        className="md:flex  w-full h-[50px] justify-center my-10 mb-40 md:mb-0"
       >
         <h1 className="text-center font-bold text-2xl flex justify-center items-center mr-5">
           TECH STACK
         </h1>
-        <div className="md:flex ">
+        <div className="md:flex md:flex-row flex flex-col gap-3">
           <div className="mr-4 flex justify-center ">
             <Image className="hover:scale-110 duration-200 transition-all" src={"HTML.svg"} width={60} height={60} alt="image" />
           </div>
@@ -129,6 +129,12 @@ const About = () => {
             <Image className="hover:scale-110 duration-200 transition-all"
               src={"TailwindCSS-Dark.svg"}
               width={60}
+              height={60}
+              alt="image"
+            />
+            <Image className="hover:scale-110 duration-200 transition-all rounded-xl"
+              src={"/sass.png"}
+              width={55}
               height={60}
               alt="image"
             />
@@ -146,7 +152,7 @@ const About = () => {
           </div>
         </div>
       </motion.div>
-    </>
+    </motion.div>
   );
 };
 
