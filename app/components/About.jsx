@@ -27,10 +27,10 @@ const About = () => {
         <div className="flex-1 justify-center items-center flex">
           <Image
             className="rounded-lg"
-            src={"/photo.png"}
+            src={"/img.jfif"}
             alt="photo"
-            width={200}
-            height={200}
+            width={500}
+            height={500}
           />
         </div>
         <div className="flex-1 ">
@@ -47,7 +47,7 @@ const About = () => {
             <h2
               className={`hover:bg-blue-800 ${
                 tab === "skills" ? "bg-blue-900" : "bg-blue-500"
-              } transition-all rounded-md px-2 py-1 mb-4 bg-blue-500`}
+              } transition-all rounded-md px-2 py-1 mb-4 cursor-pointer bg-blue-500`}
               onClick={() => setTab("skills")}
             >
               Skills
@@ -55,7 +55,7 @@ const About = () => {
             <h2
               className={`hover:bg-blue-800 ${
                 tab === "education" ? "bg-blue-900" : "bg-blue-500"
-              } transition-all rounded-md px-2 py-1 mb-4 bg-blue-500`}
+              } transition-all rounded-md px-2 py-1 mb-4 cursor-pointer bg-blue-500`}
               onClick={() => setTab("education")}
             >
               Education
@@ -63,7 +63,7 @@ const About = () => {
             <h2
               className={`hover:bg-blue-800 ${
                 tab === "achievement" ? "bg-blue-900" : "bg-blue-500"
-              } transition-all rounded-md px-2 py-1 mb-4 bg-blue-500`}
+              } transition-all rounded-md px-2 py-1 mb-4 cursor-pointer bg-blue-500`}
               onClick={() => setTab("achievement")}
             >
               Achievements
@@ -87,14 +87,14 @@ const About = () => {
                 <ul className="list-disc p-2">
                   <li>
                     St. Xavier's College-
-                    <span className="text-sm">College</span>
+                    <span className="text-xs">  College</span>
                   </li>
                   <li>
                     Little Angles College-
-                    <span className="text-sm">High School</span>
+                    <span className="text-xs">  High School</span>
                   </li>
                   <li>
-                    AVM School- <span className="text-sm">School</span>
+                    AVM School- <span className="text-xs">  School</span>
                   </li>
                 </ul>
               </div>

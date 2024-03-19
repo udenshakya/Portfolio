@@ -33,14 +33,14 @@ const Hero = () => {
         animate="animate"
         className="flex-1  flex-col gap-2 justify-start items-start  w-full flex "
       >
-        <motion.h1 variants={textVariants} className="text-5xl">
+        <motion.h1 variants={textVariants} className="text-5xl ">
           Hello I am Uden Shakya
         </motion.h1>
 
-        <motion.h2 variants={textVariants} className="text-2xl">
+        <motion.h2 variants={textVariants} className="text-2xl font-serif text-gray-300 mt-1">
           Web Developer
         </motion.h2>
-        <motion.p variants={textVariants} className="text-lg">
+        <motion.p variants={textVariants} className="text-lg mt-2">
         A passionate web developer with a knack for crafting seamless and dynamic digital experiences.
         </motion.p>
         <motion.div variants={textVariants} className="flex gap-3 mt-4">
