@@ -51,7 +51,7 @@ const Hero = () => {
             Contact
           </AnchorLink>
           <Link
-            href={"/"}
+            href="Resume.pdf" target="_blank"
             className="rounded-lg px-4 py-2 bg-blue-600 hover:bg-blue-800 transition-all"
           >
             Download CV
