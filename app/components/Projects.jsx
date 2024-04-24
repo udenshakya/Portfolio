@@ -21,6 +21,7 @@ const Projects = () => {
   return (
     <div className="my-32 mt-80 md:mt-40" id="project">
       <h1 className="text-4xl  text-center">Projects</h1>
+      <p className="text-red-600 text-xs text-center mt-5">Some project's data may take some time to load because the backend is deployed on a free server.</p>
       <motion.div
         variants={projectvariants}
         initial="initial"
