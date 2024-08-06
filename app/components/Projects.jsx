@@ -21,7 +21,10 @@ const Projects = () => {
   return (
     <div className="my-32 mt-80 md:mt-40" id="project">
       <h1 className="text-4xl  text-center">Projects</h1>
-      <p className="text-red-600 text-xs text-center mt-5">Some project's data may take some time to load because the backend is deployed on a free server.</p>
+      <p className="text-red-600 text-xs text-center mt-5">
+        Some project's data may take some time to load because the backend is
+        deployed on a free server.
+      </p>
       <motion.div
         variants={projectvariants}
         initial="initial"
@@ -44,7 +47,10 @@ const Projects = () => {
           </div>
           <div className="mt-3 w-[85%]">
             <h1 className="font-bold mb-4">Ecommerce web app</h1>
-            <p className="text-sm mb-2" >Ecommerce web application using the MERN stack to buy and sell products. Has admin panel for admin only. </p>
+            <p className="text-sm mb-2">
+              Ecommerce web application using the MERN stack to buy and sell
+              products. Has admin panel for admin only.{" "}
+            </p>
           </div>
           <div className="flex gap-3 my-2">
             <Link
@@ -78,8 +84,9 @@ const Projects = () => {
           </div>
           <div className="mt-3 w-[85%]">
             <h1 className="font-bold mb-4">Blog web app</h1>
-            <p className="text-sm mb-2" >
-              Blogging web application, a full stack app using Next JS to read, post and manage blogs.
+            <p className="text-sm mb-2">
+              Blogging web application, a full stack app using Next JS to read,
+              post and manage blogs.
             </p>
           </div>
           <div className="flex gap-3 my-2">
@@ -112,7 +119,10 @@ const Projects = () => {
           </div>
           <div className="mt-3 w-[85%]">
             <h1 className="font-bold mb-4">Hotel Booking web application </h1>
-            <p className="text-sm mb-2" >Hotel Booking web application using the MERN stack to book hotel room.</p>
+            <p className="text-sm mb-2">
+              Hotel Booking web application using the MERN stack to book h otel
+              room.
+            </p>
           </div>
           <div className="flex gap-3 my-2">
             <Link
@@ -144,7 +154,10 @@ const Projects = () => {
           </div>
           <div className="mt-3 w-[85%]">
             <h1 className="font-bold mb-4">Restaurant Site</h1>
-            <p className="text-sm mb-2" >A Landing page for a restaurant with options to view and filter menus</p>
+            <p className="text-sm mb-2">
+              A Landing page for a restaurant with options to view and filter
+              menus
+            </p>
           </div>
           <div className="flex gap-3 my-2">
             <Link
@@ -176,7 +189,10 @@ const Projects = () => {
           </div>
           <div className="mt-3 w-[85%]">
             <h1 className="font-bold mb-4">Car ShowCase web site</h1>
-            <p className="text-sm mb-2" >A website to showcase various cars with advanced search and filter functionality </p>
+            <p className="text-sm mb-2">
+              A website to showcase various cars with advanced search and filter
+              functionality{" "}
+            </p>
           </div>
           <div className="flex gap-3 my-2">
             <Link

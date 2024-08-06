@@ -25,7 +25,6 @@ const textVariants = {
 
 const Hero = () => {
   return (
-    
     <div className="sm:flex p-4 z-0 h-screen w-full mt-20 sm:mt-0 gap-20 sm:justify-center sm:items-center hero ">
       <motion.div
         variants={textVariants}
@@ -37,32 +36,42 @@ const Hero = () => {
           Hello I am Uden Shakya
         </motion.h1>
 
-        <motion.h2 variants={textVariants} className="text-2xl font-serif text-gray-300 mt-1">
+        <motion.h2
+          variants={textVariants}
+          className="text-2xl font-serif text-gray-300 mt-1"
+        >
           Web Developer
         </motion.h2>
         <motion.p variants={textVariants} className="text-lg mt-2">
-        A passionate web developer with a knack for crafting seamless and dynamic digital experiences.
+          A passionate web developer with a knack for crafting seamless and
+          dynamic digital experiences.
         </motion.p>
         <motion.div variants={textVariants} className="flex gap-3 mt-4">
-          <AnchorLink 
+          <AnchorLink
             href={"#contact"}
             className="rounded-lg px-4 py-2 bg-blue-600 hover:bg-blue-800 transition-all"
           >
             Contact
           </AnchorLink>
           <Link
-            href="Resume.pdf" target="_blank"
+            href="Resume.pdf"
+            target="_blank"
             className="rounded-lg px-4 py-2 bg-blue-600 hover:bg-blue-800 transition-all"
           >
             Download CV
           </Link>
-
         </motion.div>
-          <motion.div variants={textVariants} className="flex gap-3 mt-4">
-            <Link href={'https://github.com/udenshakya'}><IoLogoGithub className="text-2xl" /></Link>
-            <Link href={'https://www.facebook.com/uden.shakya.7/'}><FaFacebook className="text-2xl"/></Link>
-            <Link href={'https://www.linkedin.com/in/uden-shakya-1749792a7/'}><IoLogoLinkedin className="text-2xl"/></Link>
-          </motion.div>
+        <motion.div variants={textVariants} className="flex gap-3 mt-4">
+          <Link href={"https://github.com/udenshakya"}>
+            <IoLogoGithub className="text-2xl" />
+          </Link>
+          <Link href={"https://www.facebook.com/uden.shakya.7/"}>
+            <FaFacebook className="text-2xl" />
+          </Link>
+          <Link href={"https://www.linkedin.com/in/uden-shakya-1749792a7/"}>
+            <IoLogoLinkedin className="text-2xl" />
+          </Link>
+        </motion.div>
       </motion.div>
       <div className="flex-1  w-full flex justify-center items-center">
         <div>

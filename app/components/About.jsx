@@ -20,7 +20,6 @@ const About = () => {
         variants={mvariants}
         initial="initial"
         animate={isInView ? "animate" : "initial"}
-        
         id="about"
         className="sm:flex gap-20 mt-20 sm:mt-0 bg-gray-950/20  p-5 min-h-[500px] rounded-md"
       >
@@ -87,14 +86,14 @@ const About = () => {
                 <ul className="list-disc p-2">
                   <li>
                     St. Xavier's College-
-                    <span className="text-xs">  College</span>
+                    <span className="text-xs"> College</span>
                   </li>
                   <li>
                     Little Angles College-
-                    <span className="text-xs">  High School</span>
+                    <span className="text-xs"> High School</span>
                   </li>
                   <li>
-                    AVM School- <span className="text-xs">  School</span>
+                    AVM School- <span className="text-xs"> School</span>
                   </li>
                 </ul>
               </div>
@@ -122,17 +121,31 @@ const About = () => {
         </h1>
         <div className="md:flex md:flex-row flex flex-col gap-3">
           <div className="mr-4 flex justify-center ">
-            <Image className="hover:scale-110 duration-200 transition-all" src={"HTML.svg"} width={60} height={60} alt="image" />
+            <Image
+              className="hover:scale-110 duration-200 transition-all"
+              src={"HTML.svg"}
+              width={60}
+              height={60}
+              alt="image"
+            />
           </div>
           <div className="flex justify-center mr-4 gap-1">
-            <Image className="hover:scale-110 duration-200 transition-all" src={"CSS.svg"} width={60} height={60} alt="image" />
-            <Image className="hover:scale-110 duration-200 transition-all"
+            <Image
+              className="hover:scale-110 duration-200 transition-all"
+              src={"CSS.svg"}
+              width={60}
+              height={60}
+              alt="image"
+            />
+            <Image
+              className="hover:scale-110 duration-200 transition-all"
               src={"TailwindCSS-Dark.svg"}
               width={60}
               height={60}
               alt="image"
             />
-            <Image className="hover:scale-110 duration-200 transition-all rounded-xl"
+            <Image
+              className="hover:scale-110 duration-200 transition-all rounded-xl"
               src={"/sass.png"}
               width={55}
               height={60}
@@ -140,15 +153,57 @@ const About = () => {
             />
           </div>
           <div className="mr-4 flex justify-center gap-1">
-            <Image className="hover:scale-110 duration-200 transition-all" src={"JavaScript.svg"} width={60} height={60} alt="image" />
-            <Image className="hover:scale-110 duration-200 transition-all" src={"TypeScript.svg"} width={60} height={60} alt="image" />
+            <Image
+              className="hover:scale-110 duration-200 transition-all"
+              src={"JavaScript.svg"}
+              width={60}
+              height={60}
+              alt="image"
+            />
+            <Image
+              className="hover:scale-110 duration-200 transition-all"
+              src={"TypeScript.svg"}
+              width={60}
+              height={60}
+              alt="image"
+            />
           </div>
           <div className="mr-4 flex justify-center gap-1">
-            <Image className="hover:scale-110 duration-200 transition-all" src={"React-Dark.svg"} width={60} height={60} alt="image" />
-            <Image className="hover:scale-110 duration-200 transition-all" src={"NextJS-Dark.svg"} width={60} height={60} alt="image" />
-            <Image className="hover:scale-110 duration-200 transition-all" src={"NodeJS-Dark.svg"} width={60} height={60} alt="image" />
-            <Image className="hover:scale-110 duration-200 transition-all" src={"MongoDB.svg"} width={60} height={60} alt="image" />
-            <Image className="hover:scale-110 duration-200 transition-all" src={"/express.png"} width={60} height={60} alt="image" />
+            <Image
+              className="hover:scale-110 duration-200 transition-all"
+              src={"React-Dark.svg"}
+              width={60}
+              height={60}
+              alt="image"
+            />
+            <Image
+              className="hover:scale-110 duration-200 transition-all"
+              src={"NextJS-Dark.svg"}
+              width={60}
+              height={60}
+              alt="image"
+            />
+            <Image
+              className="hover:scale-110 duration-200 transition-all"
+              src={"NodeJS-Dark.svg"}
+              width={60}
+              height={60}
+              alt="image"
+            />
+            <Image
+              className="hover:scale-110 duration-200 transition-all"
+              src={"MongoDB.svg"}
+              width={60}
+              height={60}
+              alt="image"
+            />
+            <Image
+              className="hover:scale-110 duration-200 transition-all"
+              src={"/express.png"}
+              width={60}
+              height={60}
+              alt="image"
+            />
           </div>
         </div>
       </motion.div>
