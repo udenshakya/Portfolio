@@ -26,7 +26,7 @@ const About = () => {
         <div className="flex-1 justify-center items-center flex">
           <Image
             className="rounded-lg"
-            src={"/img.jfif"}
+            src={"/pic.jpg"}
             alt="photo"
             width={500}
             height={500}
